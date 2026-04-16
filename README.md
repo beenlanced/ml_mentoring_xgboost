@@ -8,21 +8,21 @@
 
 ## Project Description
 
-This project builds XGBoost classification models, a non-calibrated model and then a calibrated model for heart disease classification.
+This project builds XGBoost classification models, a non-calibrated model and then a calibrated model, for heart disease classification.
 
-The project relies on the heart disease dataset, a reliable and extensively used resource in cardiovascular research medical, studies, and machine learning applications. While the original dataset has 76 attributes or features, the dataset used here only uses 14 crucial features linked to heart disease diagnoses. The **target** or prediction is a binary classification indicating whether a patient has heart disease (target = 1) or not (target = 0).
+The project relies on the heart disease dataset, a reliable and extensively used resource in cardiovascular research medical studies and machine learning applications. While the original dataset has 76 attributes or features, the dataset used here only uses 14 crucial features linked to heart disease diagnoses. The **target** or prediction is a binary classification indicating whether a patient has heart disease (target = 1) or not (target = 0).
 
-In this project using the UCI Heart Disease dataset, I illustrate that although, we should strive to have the most calibrated models, that in this case, calibrating an XGBoost model for the given dataset does not provide an improvement with regards to interpreting “a risk score” for heart disease.
+In this project, using the UCI Heart Disease dataset, I illustrate that, although we should strive to have the most calibrated models, that in this case, calibrating an XGBoost model for the given dataset does not provide an improvement with regards to interpreting “a risk score” for heart disease.
 
 ### The Problem
 
-**The project addresses the problems of blindly thinking a calibration model is always best and how to better explaine understand how a seemingly “black box” model like XGBoost works through an examination of its features.**
+**The project addresses the problems of blindly thinking a calibration model is always best and how to better explain how a seemingly “black box” model like XGBoost works through an examination of its features.**
 
 In this project using the UCI Heart Disease dataset, I illustrate that although, we should strive to have the most calibrated models, that in this case, calibrating an XGBoost model for the given dataset does not provide an improvement with regards to interpreting “a risk score” for heart disease.
 
 At the same time, to help understand why my XGBoost model made decisions, I perform **Feature Importance** analysis and show how Feature Importance provides:
 
-- A sanctity check for the model, aligning the model's logic with real life medical reality
+- A sanity check for the model, aligning the model's logic with real life medical reality
 
 - A rationale for why certain patient data yields a high risk for heart disease based on specific features. For example, "Your risk is high primarily because of your thalach (max heart rate) and ca (number of major vessels)."
 
@@ -47,7 +47,7 @@ The project:
 - Tuning the XGBoost hyperparameters
 - Perform feature importance analysis using: Cover, Gain, Weight and SHAP for result interpretation
 - Calculate before and after Brier scores to show calibration improvement or not
-- Show how to use calibrated model
+- Show how to use the best model
 
 ---
 
@@ -167,4 +167,4 @@ Specifically, I would like to acknowledge:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
