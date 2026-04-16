@@ -1,4 +1,4 @@
-# Understanding the Importance of Calibrating Machine Learning Models
+# Understanding XGBoost Modeling, Calibration, and Feature Importance
 
 <p>
   <img alt="XGBoost Calibration figure" src="imgs/XGBoost_workflow.png"/>
